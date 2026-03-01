@@ -1,5 +1,4 @@
-# $(basename $project | tr '-' ' ' | title)
-
+# Aws Real Time Streaming Pipeline
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![CDK](https://img.shields.io/badge/AWS%20CDK-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -9,7 +8,9 @@ Production-ready data engineering pipeline built with AWS CDK, featuring compreh
 
 ## 🏗️ Architecture
 
-![Architecture](assets/architecture.gif)
+<p align="center">
+</p>p>alt="Architecture Diagram" width="100%">
+</p>p>
 
 ## Features
 
@@ -32,7 +33,7 @@ Production-ready data engineering pipeline built with AWS CDK, featuring compreh
 ## 📂 Project Structure
 
 ```
-$(basename $project)/
+aws-real-time-streaming-pipeline/
 ├── app.py                    # CDK App entry point
 ├── cdk.json                  # CDK configuration
 ├── requirements.txt          # Python dependencies
@@ -62,8 +63,9 @@ $(basename $project)/
 
 ```bash
 # Clone the repository
-git clone https://github.com/AnuAlli/$(basename $project).git
-cd $(basename $project)
+git clone https://github.com/AnuAlli/aws-real-time-streaming-pipeline.git
+cd aws-real-time-streaming-pipeline
+
 
 # Create virtual environment
 python -m venv venv
