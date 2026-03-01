@@ -8,9 +8,7 @@ Production-ready data engineering pipeline built with AWS CDK, featuring compreh
 
 ## 🏗️ Architecture
 
-<p align="center">
-</p>p>alt="Architecture Diagram" width="100%">
-</p>p>
+![Architecture](https://github.com/user-attachments/assets/f9ceb338-6566-4a96-a21d-7f1c9b606b7e)
 
 ## Features
 
